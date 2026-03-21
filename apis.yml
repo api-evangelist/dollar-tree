@@ -1,0 +1,22 @@
+aid: dollar-tree
+url: https://raw.githubusercontent.com/api-evangelist/dollar-tree/refs/heads/main/apis.yml
+apis:
+  - aid: dollar-tree:vendor-portal
+    name: Dollar Tree Vendor Portal
+    tags:
+      - Discount Retail
+      - Retail
+      - EDI
+      - Vendor Management
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://cvp.dollartree.com
+    humanURL: https://www.dollartree.com/company-faq-vendor-partners
+    properties:
+      - type: Website
+        url: https://www.dollartree.com/company-faq-vendor-partners
+      - type: VendorPortal
+        url: https://cvp.dollartree.com
+    description: >-
+      Dollar Tree provides a vendor portal for supplier partners to manage
+      orders and product information. Integration with Dollar Tree is primarily
+      through EDI, SAP, and ERP systems. No public REST API is available.
