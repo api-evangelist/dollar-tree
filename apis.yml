@@ -1,16 +1,14 @@
 aid: dollar-tree
-url: 
-  https://raw.githubusercontent.com/api-evangelist/dollar-tree/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/dollar-tree/refs/heads/main/apis.yml
 apis:
   - aid: dollar-tree:vendor-portal
     name: Dollar Tree Vendor Portal
     tags:
       - Discount Retail
-      - Retail
       - EDI
+      - Retail
       - Vendor Management
-    image: 
-      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://cvp.dollartree.com
     humanURL: https://www.dollartree.com/company-faq-vendor-partners
     properties:
