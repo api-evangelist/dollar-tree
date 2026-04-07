@@ -1,5 +1,6 @@
 aid: dollar-tree
-url: https://raw.githubusercontent.com/api-evangelist/dollar-tree/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/dollar-tree/refs/heads/main/apis.yml
 apis:
   - aid: dollar-tree:vendor-portal
     name: Dollar Tree Vendor Portal
@@ -8,7 +9,8 @@ apis:
       - Retail
       - EDI
       - Vendor Management
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: 
+      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://cvp.dollartree.com
     humanURL: https://www.dollartree.com/company-faq-vendor-partners
     properties:
@@ -20,3 +22,7 @@ apis:
       Dollar Tree provides a vendor portal for supplier partners to manage
       orders and product information. Integration with Dollar Tree is primarily
       through EDI, SAP, and ERP systems. No public REST API is available.
+description: >-
+  Dollar Tree is a leading operator of discount variety stores, offering merchandise
+  at fixed price points across the United States and Canada under the Dollar Tree
+  and Family Dollar banners.
