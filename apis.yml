@@ -40,6 +40,8 @@ apis:
       - type: VendorPortal
         url: https://cvp.dollartree.com
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/dollar-tree-stores
   - type: Website
     url: https://www.dollartree.com
   - type: Family Dollar
