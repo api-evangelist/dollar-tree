@@ -7,7 +7,7 @@ description: >-
   SAP, and ERP systems via the Dollar Tree Vendor Portal. No public REST API
   is currently available.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Retail
   - Discount Retail
