@@ -40,6 +40,8 @@ apis:
       - type: VendorPortal
         url: https://cvp.dollartree.com
 common:
+  - type: DomainSecurity
+    url: security/dollar-tree-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/dollar-tree-stores
   - type: Website
@@ -52,6 +54,8 @@ common:
     url: https://careers.dollartree.com
   - type: Investor Relations
     url: https://www.dollartreeinfo.com
+  - url: https://corporate.dollartree.com/news-media/press-releases/rss
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
