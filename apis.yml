@@ -7,7 +7,19 @@ description: >-
   SAP, and ERP systems via the Dollar Tree Vendor Portal. No public REST API
   is currently available.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dollar-tree.png
 tags:
   - Retail
   - Discount Retail
@@ -16,29 +28,11 @@ tags:
   - Fortune 500
 url: https://raw.githubusercontent.com/api-evangelist/dollar-tree/refs/heads/main/apis.yml
 created: '2026-03-21'
-modified: '2026-04-28'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 access: 3rd-Party
 position: Consuming
-apis:
-  - aid: dollar-tree:vendor-portal
-    name: Dollar Tree Vendor Portal
-    description: >-
-      Dollar Tree provides a vendor portal for supplier partners to manage
-      orders and product information. Integration with Dollar Tree is handled
-      via EDI, SAP, and ERP systems. No public REST API is exposed.
-    humanURL: https://www.dollartree.com/company-faq-vendor-partners
-    baseURL: https://cvp.dollartree.com
-    tags:
-      - Discount Retail
-      - EDI
-      - Retail
-      - Vendor Management
-    properties:
-      - type: Website
-        url: https://www.dollartree.com/company-faq-vendor-partners
-      - type: VendorPortal
-        url: https://cvp.dollartree.com
+apis: []
 common:
   - type: DomainSecurity
     url: security/dollar-tree-domain-security.yml
@@ -56,6 +50,8 @@ common:
     url: https://www.dollartreeinfo.com
   - url: https://corporate.dollartree.com/news-media/press-releases/rss
     type: Blog
+  - type: Suppliers
+    url: https://www.dollartree.com/company-faq-vendor-partners
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

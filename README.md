@@ -25,13 +25,6 @@ Dollar Tree is a leading operator of discount variety stores in North America, o
 
 ## APIs
 
-### Dollar Tree Vendor Portal
-
-Dollar Tree provides a vendor portal for supplier partners to manage orders and product information. Integration is handled through EDI, SAP, and ERP systems. No public REST API is currently exposed.
-
-**Human URL:** [https://www.dollartree.com/company-faq-vendor-partners](https://www.dollartree.com/company-faq-vendor-partners)
-
-**Base URL:** `https://cvp.dollartree.com`
 
 ## Common Properties
 
