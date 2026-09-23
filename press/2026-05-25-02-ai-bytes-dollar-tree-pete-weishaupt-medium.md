@@ -1,7 +1,9 @@
 ---
 title: 'AI Bytes: Dollar Tree - Pete Weishaupt - Medium'
 url: https://peteweishaupt.medium.com/ai-bytes-dollar-tree-9aefa9c2c7
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Dollar Tree" press release artificial intelligence'
 position: 2
 source: serpapi-google
